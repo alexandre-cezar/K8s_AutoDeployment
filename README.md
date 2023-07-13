@@ -12,13 +12,12 @@ If a new namespace must be created as part of the deployment, it can be passed a
 
 == Usage
 
-[source, bash]
 ----
 K8s_Auto_Deployment.py [-h] (--urls URLS [URLS ...] | --paths PATHS [PATHS ...]) [--auth AUTH] [--proxy PROXY] [--proxy-auth PROXY_AUTH]
                               --kubeconfigs KUBECONFIGS [KUBECONFIGS ...] [--namespace NAMESPACE]
 ----
 
-=== Optional Arguments
+=== Arguments
 
 -h, --help::
   Show this help message and exit.
