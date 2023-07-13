@@ -1,4 +1,4 @@
-= K8s_AutoDeployment
+K8s_AutoDeployment
 
 This application automates the deployment of a task for users who cannot use a pipeline for automated deployments.
 
