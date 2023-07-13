@@ -1,4 +1,4 @@
-=== K8s_AutoDeployment
+# K8s_AutoDeployment
 
 
 This application automates the deployment of a task for users who cannot use a pipeline for automated deployments.
@@ -11,14 +11,12 @@ Multiple clusters can be supported by providing different kube credentials (mult
 
 If a new namespace must be created as part of the deployment, it can be passed as an argument. If the deployment is being made for an existing namespace, just specify the namespace in the YAML file directly.
 
-=== Usage
+# Usage
 
-----
 K8s_Auto_Deployment.py [-h] (--urls URLS [URLS ...] | --paths PATHS [PATHS ...]) [--auth AUTH] [--proxy PROXY] [--proxy-auth PROXY_AUTH]
                               --kubeconfigs KUBECONFIGS [KUBECONFIGS ...] [--namespace NAMESPACE]
-----
 
-=== Arguments
+# Arguments
 
 -h, --help::
   Show this help message and exit.
