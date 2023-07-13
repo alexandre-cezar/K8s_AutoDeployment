@@ -1,5 +1,6 @@
 === K8s_AutoDeployment
 
+
 This application automates the deployment of a task for users who cannot use a pipeline for automated deployments.
 
 It can download the YAML file from a given URL (outbound proxy connection is supported) or use a local YAML file as input.
@@ -9,7 +10,6 @@ Up to 3 different YAML files are supported in a single run.
 Multiple clusters can be supported by providing different kube credentials (multiple kube credentials in a single file are not supported).
 
 If a new namespace must be created as part of the deployment, it can be passed as an argument. If the deployment is being made for an existing namespace, just specify the namespace in the YAML file directly.
-
 
 === Usage
 
