@@ -41,3 +41,5 @@ K8s_Auto_Deployment.py [-h] (--urls URLS [URLS ...] | --paths PATHS [PATHS ...])
 --namespace NAMESPACE::
   Namespace to be created before the YAML file is executed (optional).
 
+# Demo
+Watch the demo video in this repo for additional information on how it works.
